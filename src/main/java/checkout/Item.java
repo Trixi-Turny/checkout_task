@@ -1,3 +1,5 @@
+package checkout;
+
 public class Item {
 
     private final String id;

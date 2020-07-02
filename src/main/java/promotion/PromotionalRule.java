@@ -1,5 +1,7 @@
 package promotion;
 
+import checkout.Basket;
+
 public interface PromotionalRule {
-    void applyPromotion();
+    void applyPromotion(Basket basket);
 }

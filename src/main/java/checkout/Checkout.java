@@ -1,3 +1,5 @@
+package checkout;
+
 import promotion.PromotionalRule;
 
 import java.util.List;
@@ -20,11 +22,13 @@ public class Checkout {
     }
 
     public double total() {
-
-
+        for(PromotionalRule promo : promotionalRules) {
+            promo.applyPromotion(basket);
+        }
+        return (double) Math.round(basket.getBasketTotal()*100)/100;
         //applyPromos
         //return basket total
-        return 0.0;
+
     }
 
 }

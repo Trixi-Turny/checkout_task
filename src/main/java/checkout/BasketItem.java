@@ -1,3 +1,5 @@
+package checkout;
+
 public class BasketItem {
 
 
@@ -5,7 +7,7 @@ public class BasketItem {
     private int quantity;
     private double calculatedItemPrice;
 
-    public BasketItem(Item item) {
+    public BasketItem(Item item, int quantity) {
         this.item = item;
         this.quantity = quantity;
         this.calculatedItemPrice = item.getPrice();
@@ -18,7 +20,7 @@ public class BasketItem {
 
 
     public int getQuantity() {
-        return quantity;
+        return this.quantity;
     }
 
     public void setQuantity(int quantity) {
