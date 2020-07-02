@@ -26,8 +26,10 @@ public class Checkout {
      * @return the total rounded to 2 decimals
      */
     public double total() {
-        for(PromotionalRule promo : promotionalRules) {
-            promo.applyPromotion(basket);
+        if(promotionalRules != null) {
+            for (PromotionalRule promo : promotionalRules) {
+                promo.applyPromotion(basket);
+            }
         }
         return (double) Math.round(basket.getBasketTotal()*100)/100;
     }

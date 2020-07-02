@@ -111,5 +111,20 @@ public class CheckoutTest {
         assertEquals(81.00, co.total());
     }
 
+    @Test
+    public void addingItemsTwoAndTwo_ShouldResultInCorrectTotal_WhenThereAreNoPromotions() {
+
+        //given
+        Item two = new Item("002", "Personalised cufflinks", 45.00);
+        Checkout co = new Checkout(null);
+
+        //when
+        co.scan(two);
+        co.scan(two);
+
+        //then
+        assertEquals(90.00, co.total());
+    }
+
 
 }
