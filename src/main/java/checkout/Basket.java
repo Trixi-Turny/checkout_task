@@ -9,8 +9,8 @@ import java.util.Map;
  */
 public class Basket {
 
+    private final Map<String, BasketItem> basketItems = new HashMap<>();
     private double basketTotal = 0;
-    private Map<String, BasketItem> basketItems = new HashMap<>();
 
     /**
      * adds items to a basket grouping them by item id, increasing the quantity each time same item is added
