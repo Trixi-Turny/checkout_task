@@ -1,5 +1,5 @@
-import checkout.Checkout;
-import checkout.Item;
+package checkout;
+
 import org.junit.jupiter.api.Test;
 import promotion.BasketPromotionRule;
 import promotion.ItemPromotionRule;
@@ -27,7 +27,7 @@ public class CheckoutTest {
     }
 
     @Test
-    public void addingItemsOneTwoAndThreeShouldResultInCorrectTotal() {
+    public void addingItemsOneTwoAndThree_ShouldResultInCorrectTotal_WithBasketPromoApplied() {
 
         //given
         PromotionalRule itemPromo = new ItemPromotionRule("001", 2, 8.50);
@@ -50,7 +50,7 @@ public class CheckoutTest {
 
 
     @Test
-    public void addingItemsOneThreeAndOneShouldResultInCorrectTotal() {
+    public void addingItemsOneThreeAndOne_ShouldResultInCorrectTotal_WithItemPromoApplied() {
 
         //given
         PromotionalRule itemPromo = new ItemPromotionRule("001", 2, 8.50);
@@ -70,7 +70,7 @@ public class CheckoutTest {
     }
 
     @Test
-    public void addingItemsOneTwoOneAndThreeShouldResultInCorrectTotal() {
+    public void addingItemsOneTwoOneAndThree_ShouldResultInCorrectTotal_WithItemAndBasketPromosApplied() {
 
         //given
         PromotionalRule itemPromo = new ItemPromotionRule("001", 2, 8.50);
@@ -93,7 +93,7 @@ public class CheckoutTest {
     }
 
     @Test
-    public void addingItemsTwoAndTwoShouldResultInCorrectTotal() {
+    public void addingItemsTwoAndTwo_ShouldResultInCorrectTotal_WithBasketPromoApplied() {
 
         //given
         PromotionalRule itemPromo = new ItemPromotionRule("001", 2, 8.50);

@@ -1,3 +1,5 @@
+#potential place for adding promotion config.. currently not implemented
+
 promotions:
   - basket_promotions:
     - price: 60

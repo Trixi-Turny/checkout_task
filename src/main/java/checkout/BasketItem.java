@@ -1,5 +1,9 @@
 package checkout;
 
+
+/**
+ * Class to cater for an item in a checkout basket.
+ */
 public class BasketItem {
 
 

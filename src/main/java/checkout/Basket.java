@@ -3,8 +3,11 @@ package checkout;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Basket {
 
+/**
+ * Represents a basket abstraction of a checkout.
+ */
+public class Basket {
 
     private double basketTotal = 0;
     private Map<String, BasketItem> basketItems = new HashMap<>();
