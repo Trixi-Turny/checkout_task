@@ -15,8 +15,11 @@ public class ItemPromotionRule implements PromotionalRule {
         this.afterPromoPrice = afterPromoPrice;
     }
     public void applyPromotion(Basket basket) {
-        if(basket.getBasketItems().get(this.id).getQuantity() >= minQuantity) {
-            basket.getBasketItems().get(this.id).setCalculatedPrice(afterPromoPrice);
+
+        if(basket.getBasketItems().get(this.id)!= null){
+            if(basket.getBasketItems().get(this.id).getQuantity() >= minQuantity) {
+                basket.getBasketItems().get(this.id).setCalculatedPrice(afterPromoPrice);
+            }
         };
         basket.calculateTotal();
     }

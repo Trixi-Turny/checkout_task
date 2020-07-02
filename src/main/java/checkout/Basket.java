@@ -26,7 +26,7 @@ public class Basket {
     }
 
     public double getBasketTotal() {
-        return basketTotal;
+        return this.basketTotal == 0 ? calculateTotal() : this.basketTotal;
     }
 
     public void setBasketTotal(double basketTotal) {
