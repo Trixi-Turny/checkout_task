@@ -1,0 +1,9 @@
+promotions:
+  - basket_promotions:
+    - price: 60
+      percentageOff: 0.10
+
+  - item_promotions:
+    - id: "001"
+      min_no_of_items: 2
+      price: 8.5
