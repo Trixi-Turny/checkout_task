@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda98dbc-99c3-4306-8c5b-f69da994b438" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/src/main/java/checkout/Basket.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/Basket.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/promotion/ItemPromotionRule.java" afterPath="$PROJECT_DIR$/src/main/java/promotion/ItemPromotionRule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/checkout/BasketItem.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/BasketItem.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/checkout/Checkout.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/Checkout.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/checkout/Item.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/Item.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java" afterPath="$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java" afterPath="$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java" />
       <change beforePath="$PROJECT_DIR$/src/test/test/CheckoutTest.java" afterPath="$PROJECT_DIR$/src/test/test/CheckoutTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +28,8 @@
       <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#133#134#0" expanded="true" />
@@ -38,23 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CheckoutTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/test/CheckoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="107" column="14" lean-forward="false" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="1290">
+              <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,22 +67,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AssertEquals.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/AssertEquals.class">
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AssertionUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/AssertionUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,18 +98,27 @@
       <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="355">
+              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#211#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromotionalRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,18 +126,19 @@
       <file leaf-file-name="BasketItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/checkout/BasketItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="56">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +157,8 @@
       <file leaf-file-name="BasketPromotionRule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/PromotionalRule.java" />
         <option value="$PROJECT_DIR$/src/main/resources/promotionRules.yml" />
@@ -193,15 +203,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Basket.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasketItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/Checkout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/checkout/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/checkout/BasketItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/promotion/ItemPromotionRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/Checkout.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/Basket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/promotion/ItemPromotionRule.java" />
         <option value="$PROJECT_DIR$/src/test/test/CheckoutTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/checkout/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/checkout/BasketItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java" />
       </list>
     </option>
   </component>
@@ -265,22 +276,6 @@
               <item name="checkout" type="b2602c69:ProjectViewProjectNode" />
               <item name="noths_checkout_task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="checkout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noths_checkout_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="promotion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noths_checkout_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,14 +284,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="noths_checkout_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckoutTest" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="checkout" type="b2602c69:ProjectViewProjectNode" />
@@ -558,7 +545,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593679223373</updated>
       <workItem from="1593679227168" duration="5687000" />
-      <workItem from="1593688255155" duration="7222000" />
+      <workItem from="1593688255155" duration="8805000" />
     </task>
     <servers />
   </component>
@@ -595,7 +582,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12909000" />
+    <option name="totallyTimeSpent" value="14492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="23" width="1280" height="777" extended-state="0" />
@@ -609,13 +596,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -627,7 +615,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -670,19 +657,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/checkout/Checkout.java</url>
-          <line>27</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/checkout/Checkout.java</url>
-          <line>25</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/checkout/Basket.java</url>
-          <line>16</line>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -732,13 +719,12 @@
           <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#191#211#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -748,12 +734,10 @@
         <state relative-caret-position="270">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#414#415#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -763,15 +747,16 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,45 +812,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="92" lean-forward="false" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkout.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#414#415#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,70 +838,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/BasketItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/AssertEquals.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#191#211#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,6 +856,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/BasketItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/promotion/ItemPromotionRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -972,10 +939,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/promotion/BasketPromotionRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/promotion/PromotionalRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/CheckoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="14" lean-forward="false" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        <state relative-caret-position="1290">
+          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

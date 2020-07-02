@@ -14,9 +14,11 @@ public class CheckoutTest {
 
     @Test
     public void scanningItemShouldResultInBasketContainingItem() {
+
         //given
         Checkout co = new Checkout(null);
         Item item = new Item("001", "some name", 13.50);
+
         //when
         co.scan(item);
 
@@ -26,6 +28,7 @@ public class CheckoutTest {
 
     @Test
     public void addingItemsOneTwoAndThreeShouldResultInCorrectTotal() {
+
         //given
         PromotionalRule itemPromo = new ItemPromotionRule("001", 2, 8.50);
         PromotionalRule basketPromo = new BasketPromotionRule(60.00, 0.10);
@@ -34,7 +37,6 @@ public class CheckoutTest {
         Item one = new Item("001", "Travel Card Holder", 9.25);
         Item two = new Item("002", "Personalised cufflinks", 45.00);
         Item three = new Item("003", "Kids T-shirt", 19.95);
-
         Checkout co = new Checkout(promoList);
 
         //when
@@ -49,13 +51,13 @@ public class CheckoutTest {
 
     @Test
     public void addingItemsOneThreeAndOneShouldResultInCorrectTotal() {
+
         //given
         PromotionalRule itemPromo = new ItemPromotionRule("001", 2, 8.50);
         PromotionalRule basketPromo = new BasketPromotionRule(60.00, 0.10);
         List<PromotionalRule> promoList = List.of(itemPromo, basketPromo);
         Item one = new Item("001", "Travel Card Holder", 9.25);
         Item three = new Item("003", "Kids T-shirt", 19.95);
-
         Checkout co = new Checkout(promoList);
 
         //when

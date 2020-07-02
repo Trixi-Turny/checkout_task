@@ -3,7 +3,7 @@ package checkout;
 public class BasketItem {
 
 
-    private Item item;
+    private final Item item;
     private int quantity;
     private double calculatedItemPrice;
 
@@ -13,11 +13,9 @@ public class BasketItem {
         this.calculatedItemPrice = item.getPrice();
     }
 
-
     public Item getItem() {
         return item;
     }
-
 
     public int getQuantity() {
         return this.quantity;

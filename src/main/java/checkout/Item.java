@@ -1,5 +1,8 @@
 package checkout;
 
+/**
+ * This class to match the product/item model provided
+ */
 public class Item {
 
     private final String id;
@@ -15,10 +18,6 @@ public class Item {
 
     public String getId() {
         return id;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public double getPrice() {

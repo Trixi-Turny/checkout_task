@@ -12,6 +12,7 @@ public class BasketPromotionRule implements PromotionalRule {
         this.minTotal = minTotal;
         this.percentage = percentage;
     }
+
     public void applyPromotion(Basket basket) {
 
         double currentTotal = basket.getBasketTotal();

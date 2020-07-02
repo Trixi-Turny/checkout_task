@@ -21,14 +21,15 @@ public class Checkout {
         this.basket.add(item);
     }
 
+    /**
+     * Apply Promotions to basket and return calculated total
+     * @return the total rounded to 2 decimals
+     */
     public double total() {
         for(PromotionalRule promo : promotionalRules) {
             promo.applyPromotion(basket);
         }
         return (double) Math.round(basket.getBasketTotal()*100)/100;
-        //applyPromos
-        //return basket total
-
     }
 
 }

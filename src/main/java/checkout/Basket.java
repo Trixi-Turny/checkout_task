@@ -7,14 +7,18 @@ public class Basket {
 
 
     private double basketTotal = 0;
+    private Map<String, BasketItem> basketItems = new HashMap<>();
 
-
-    private Map<String, BasketItem> basketItems = new HashMap<String, BasketItem>();
-
+    /**
+     * adds items to a basket grouping them by item id, increasing the quantity each time same item is added
+     *
+     * @param item instance of {@link Item}
+     * @return a map of item ids and BasketItems
+     */
     public Map<String, BasketItem> add(Item item) {
         if (basketItems.containsKey(item.getId())) {
             int currQuantity = basketItems.get(item.getId()).getQuantity();
-            basketItems.get(item.getId()).setQuantity(currQuantity+1);
+            basketItems.get(item.getId()).setQuantity(currQuantity + 1);
         } else {
             basketItems.put(item.getId(), new BasketItem(item, 1));
         }
